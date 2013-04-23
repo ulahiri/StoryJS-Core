@@ -121,6 +121,12 @@ if(typeof VMM != 'undefined' && typeof VMM.MediaType == 'undefined') {
 			media.type = "quote";
 			media.id = d;
 			success = true;
+		} else if (d.match('iframe')) {
+			media.type = "iframe";
+			trace("IFRAME")
+			trace( d.match(/src\=([^\s]*)\s/)[1].split(/"/)[1]);
+			media.id = d.match(/src\=([^\s]*)\s/)[1].split(/"/)[1];
+			success = true;
 		} else {
 			trace("unknown media");  
 			media.type = "unknown";
