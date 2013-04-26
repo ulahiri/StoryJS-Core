@@ -1,4 +1,4 @@
-/* LANGUAGE BASQUE
+/* Basque/ Euskara LANGUAGE
 ================================================== */
 if (typeof VMM != 'undefined') {
 	VMM.Language = {

@@ -1,4 +1,4 @@
-/* LANGUAGE 
+/* Tagalog LANGUAGE 
 ================================================== */
 if(typeof VMM != 'undefined') {
 	VMM.Language = {

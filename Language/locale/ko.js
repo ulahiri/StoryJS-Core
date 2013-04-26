@@ -1,10 +1,10 @@
-/* LANGUAGE 
+/* Korean LANGUAGE 
 ================================================== */
 if(typeof VMM != 'undefined') {
 	VMM.Language = {
-		lang: "kr",
+		lang: "ko",
 		api: {
-			wikipedia: "kr"
+			wikipedia: "ko"
 		},
 		date: {
 			month: ["1월","2월","3월","4월","5월","6월","7월","8월","9월","10월","11월","12월"],

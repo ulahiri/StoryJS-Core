@@ -1,4 +1,4 @@
-/* LANGUAGE 
+/* Dutch LANGUAGE 
 ================================================== */
 if(typeof VMM != 'undefined') {
 	VMM.Language = {

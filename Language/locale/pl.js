@@ -1,4 +1,4 @@
-/* LANGUAGE 
+/* Polish LANGUAGE 
 ================================================== */
 if(typeof VMM != 'undefined') {
 	VMM.Language = {
@@ -7,10 +7,10 @@ if(typeof VMM != 'undefined') {
 			wikipedia: "pl"
 		},
 		date: {
-			month: ["Styczeń","Luty","Marzec","Kwiecień","Maj","Czerwiec","Lipiec","Sierpień","Wrzesień","Październik","Listopad","Grudzień"],
-			month_abbr: ["Sty.","Lut.","Mar.","Kwi.","Maj.","Cze.","Lip.","Sie.","Wrz.","Paź.","Lis.","Gru."],
-			day: ["Niedziela","Poniedziałek","Wtorek","Środa","Czwartek","Piątek","Sobota"],
-			day_abbr: ["Nie.","Pon.","Wto.","Śro.","Czw.","Pią.","Sob."]
+			month: ["Stycznia", "Lutego", "Marca", "Kwietnia", "Maja", "Czerwca", "Lipca", "Sierpnia", "Września", "Października", "Listopada", "Grudnia"],
+			month_abbr: ["Sty.", "Lut.", "Mar.", "Kwi.", "Maj.", "Cze.", "Lip.", "Sie.", "Wrz.", "Paź.", "Lis.", "Gru."],
+			day: ["Niedziela", "Poniedziałek", "Wtorek", "Środa", "Czwartek", "Piątek", "Sobota"],
+			day_abbr: ["Nie.", "Pon.", "Wto.", "Śro.", "Czw.", "Pią.", "Sob."]
 		}, 
 		dateformats: {
 			year: "yyyy",

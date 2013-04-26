@@ -1,4 +1,4 @@
-﻿/* LANGUAGE 
+﻿/* Tamil LANGUAGE 
 ================================================== */
 if(typeof VMM != 'undefined') {
 	VMM.Language = {

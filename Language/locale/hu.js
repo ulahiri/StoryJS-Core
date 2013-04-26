@@ -1,4 +1,4 @@
-/* LANGUAGE 
+/* Hungarian LANGUAGE 
 ================================================== */
 if(typeof VMM != 'undefined') {
 	VMM.Language = {

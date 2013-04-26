@@ -1,4 +1,4 @@
-/* LANGUAGE 
+/* Italian LANGUAGE 
 ================================================== */
 if(typeof VMM != 'undefined') {
 	VMM.Language = {

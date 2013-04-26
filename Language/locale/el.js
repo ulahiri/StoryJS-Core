@@ -1,4 +1,4 @@
-/* LANGUAGE 
+/* Greek LANGUAGE 
 ================================================== */
 if(typeof VMM != 'undefined') {
 	VMM.Language = {

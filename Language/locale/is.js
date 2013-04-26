@@ -1,4 +1,4 @@
-/* LANGUAGE 
+/* Icelandic LANGUAGE 
 ================================================== */
 if(typeof VMM != 'undefined') {
 	VMM.Language = {

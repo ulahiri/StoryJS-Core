@@ -1,4 +1,4 @@
-/* LANGUAGE SLOVENIAN
+/* Slovenian LANGUAGE SLOVENIAN
 ================================================== */
 if (typeof VMM != 'undefined') {
 	VMM.Language = {

@@ -1,4 +1,4 @@
-/* LANGUAGE 
+/* Spanish LANGUAGE 
 ================================================== */
 if(typeof VMM != 'undefined') {
 	VMM.Language = {
@@ -7,10 +7,10 @@ if(typeof VMM != 'undefined') {
 			wikipedia: "es"
 		},
 		date: {
-			month: ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"],
-			month_abbr: ["Ene.","Feb.","Mar.","Abr.","May.","Jun.","Jul.","Ago.","Sep.","Oct.","Nov.","Dic."],
-			day: ["Domingo","Lunes","Martes","iércoles","Jueves","Viernes","Sábado"],
-			day_abbr: ["Dom.","Lun.","Mar.","Mié.","Jue.","Vie.","Sáb."]
+			month: ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"],
+			month_abbr: ["Ene.", "Feb.", "Mar.", "Abr.", "May.", "Jun.", "Jul.", "Ago.", "Sep.", "Oct.", "Nov.", "Dic."],
+			day: ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"],
+			day_abbr: ["Dom.", "Lun.", "Mar.", "Mié.", "Jue.", "Vie.", "Sáb."]
 		}, 
 		dateformats: {
 			year: "yyyy",
@@ -24,13 +24,13 @@ if(typeof VMM != 'undefined') {
 			full_long_small_date: "HH:MM'<br/><small>d mmm yyyy'</small>'"
 		},
 		messages: {
-			loading_timeline: "Cargando cronología...",
+			loading_timeline: "Cronología esta cargando",
 			return_to_title: "Volver al título",
-			expand_timeline: "Ampliar la cronología",
+			expand_timeline: "Enlargar la cronología",
 			contract_timeline: "Reducir la cronología",
 			wikipedia: "Desde Wikipedia, la enciclopedia libre",
-			loading_content: "Cargando contenido",
-			loading: "Cargando"
+			loading_content: "cargando",
+			loading: "cargando"
 		}
 	}
 }

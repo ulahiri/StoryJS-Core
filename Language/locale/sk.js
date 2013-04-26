@@ -1,4 +1,4 @@
-/* LANGUAGE 
+/* Slovak LANGUAGE 
 ================================================== */
 typeof VMM != "undefined" && (VMM.Language = {
     lang: "sk",

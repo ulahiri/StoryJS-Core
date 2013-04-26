@@ -1,4 +1,4 @@
-/* LANGUAGE 
+/* Czech LANGUAGE 
 ================================================== */
 if(typeof VMM != 'undefined') {
 	VMM.Language = {

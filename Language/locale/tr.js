@@ -1,4 +1,4 @@
-/* LANGUAGE 
+/* Turkish LANGUAGE 
 ================================================== */
 if(typeof VMM != 'undefined') {
 	VMM.Language = {

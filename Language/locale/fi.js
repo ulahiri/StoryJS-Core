@@ -1,4 +1,4 @@
-/* LANGUAGE Finnish
+/* Finnish LANGUAGE
 ================================================== */
 if(typeof VMM != 'undefined') {
 	VMM.Language = {

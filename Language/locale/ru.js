@@ -1,4 +1,4 @@
-/* LANGUAGE 
+/* Russian LANGUAGE 
  ================================================== */
 if (typeof VMM != "undefined") {
 	VMM.Language = {

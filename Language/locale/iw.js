@@ -1,4 +1,4 @@
-﻿/* LANGUAGE 
+﻿/* Hebrew (beta) LANGUAGE 
 ================================================== */
 if(typeof VMM != 'undefined') {
 	VMM.Language = {
