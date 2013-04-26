@@ -1,4 +1,4 @@
-/* LANGUAGE
+/* Serbian (Latin) LANGUAGE
 ================================================== */
 if (typeof VMM != 'undefined') {
 	VMM.Language = {
