@@ -1,4 +1,4 @@
-/* LANGUAGE 
+/* Chinese LANGUAGE 
 ================================================== */
 if(typeof VMM != 'undefined') {
 	VMM.Language = {
@@ -13,24 +13,24 @@ if(typeof VMM != 'undefined') {
 			day_abbr: ["周日", "周一", "周二", "周三", "周四", "周五", "周六"]
 		}, 
 		dateformats: {
-			year: "yyyy",
+			year: "yyyy年",
 			month_short: "mmm",
-			month: "mmmm yyyy",
-			full_short: "d mmm",
-			full: "d mmmm yyyy",
+			month: "yyyy年 mmmm",
+			full_short: "mmm d",
+			full: "yyyy年mmmm d日",
 			time_no_seconds_short: "HH:MM",
-			time_no_seconds_small_date: "HH:MM'<br/><small>'d mmmm yyyy'</small>'",
-			full_long: "dddd',' d mmm yyyy 'um' HH:MM",
-			full_long_small_date: "HH:MM'<br/><small>'dddd',' d mmm yyyy'</small>'"
+			time_no_seconds_small_date: "HH:MM'<br/><small>'yyyy年mmmm d日'</small>'",
+			full_long: "dddd',' yyyy年 mmm d日'um' HH:MM",
+			full_long_small_date: "HH:MM'<br/><small>'dddd',' yyyy年 mmm d日'</small>'"
 		},
 		messages: {
 			loading_timeline: "加载时间线... ",
 			return_to_title: "回到开头",
 			expand_timeline: "伸展时间",
 			contract_timeline: "缩短时间",
-			wikipedia: "From Wikipedia, the free encyclopedia",
-			loading_content: "Loading Content",
-			loading: "Loading"
+			wikipedia: "来自维基百科，自由的百科全书",
+			loading_content: "正在加载内容",
+			loading: "加载中"
 			
 		}
 	}
