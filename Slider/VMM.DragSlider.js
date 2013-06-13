@@ -137,6 +137,7 @@ if(typeof VMM != 'undefined' && typeof VMM.DragSlider == 'undefined') {
 		
 		function onDragMove(e) {
 			dragMove(e.data.element, e);
+			
 		}
 		
 		function dragStart(elem, delem, e) {
