@@ -68,6 +68,7 @@ if(typeof VMM != 'undefined' && typeof VMM.Date == 'undefined') {
 				};
 				
 			if (type.of(d) == "date") {
+				trace("DEBUG THIS, ITs A DATE");
 				date = d;
 			} else {
 				date = new Date(0, 0, 1, 0, 0, 0, 0);
@@ -189,7 +190,7 @@ if(typeof VMM != 'undefined' && typeof VMM.Date == 'undefined') {
 						p.second = true;
 						p.millisecond = true;
 					}
-				} else if (d.length <= 5) {
+				} else if (d.length <= 8) {
 					p.year = true;
 					date.setFullYear(parseInt(d, 10));
 					date.setMonth(0);
@@ -237,6 +238,13 @@ if(typeof VMM != 'undefined' && typeof VMM.Date == 'undefined') {
 						
 					} else {
 						date = new Date(Date.parse(d));
+						p.year = true;
+						p.month = true;
+						p.day = true;
+						p.hour = true;
+						p.minute = true;
+						p.second = true;
+						p.millisecond = true;
 					}
 				} else {
 					p.year = true;
