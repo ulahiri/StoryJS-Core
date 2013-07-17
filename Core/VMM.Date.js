@@ -14,6 +14,7 @@ if(typeof VMM != 'undefined' && typeof VMM.Date == 'undefined') {
 			month: "mmmm yyyy",
 			full_short: "mmm d",
 			full: "mmmm d',' yyyy",
+			time_short: "h:MM:ss TT",
 			time_no_seconds_short: "h:MM TT",
 			time_no_seconds_small_date: "h:MM TT'<br/><small>'mmmm d',' yyyy'</small>'",
 			full_long: "mmm d',' yyyy 'at' hh:MM TT",
@@ -100,11 +101,15 @@ if(typeof VMM != 'undefined' && typeof VMM.Date == 'undefined') {
 					}
 					if (date_array[5]) {
 						date.setSeconds(date_array[5]);
-						p.second = true;
+						if (date_array[5] >= 1) {
+							p.second = true;
+						}
 					}
 					if (date_array[6]) {
 						date.setMilliseconds(date_array[6]);
-						p.millisecond = true;
+						if (date_array[6] >= 1) {
+							p.millisecond = true;
+						}
 					}
 				} else if (d.match("/")) {
 					if (d.match(" ")) {
@@ -215,11 +220,15 @@ if(typeof VMM != 'undefined' && typeof VMM.Date == 'undefined') {
 							}
 							if (time_array[2] >= 1) {
 								date.setSeconds(time_array[2]);
-								p.second = true;
+								if (time_array[2] >= 1) {
+									p.second = true;
+								}
 							}
 							if (time_array[3] >= 1) {
 								date.setMilliseconds(time_array[3]);
-								p.millisecond = true;
+								if (time_array[3] >= 1) {
+									p.millisecond = true;
+								}
 							}
 						}
 						date_array = time_parse[0].split("-");
@@ -243,17 +252,14 @@ if(typeof VMM != 'undefined' && typeof VMM.Date == 'undefined') {
 						p.day = true;
 						p.hour = true;
 						p.minute = true;
-						p.second = true;
-						p.millisecond = true;
+						if (date.getSeconds() >= 1) {
+							p.second = true;
+						}
+						if (date.getMilliseconds() >= 1) {
+							p.millisecond = true;
+						}
 					}
 				} else {
-					p.year = true;
-					p.month = true;
-					p.day = true;
-					p.hour = true;
-					p.minute = true;
-					p.second = true;
-					p.millisecond = true;
 					date = new Date(
 						parseInt(d.slice(0,4), 10), 
 						parseInt(d.slice(4,6), 10) - 1, 
@@ -261,6 +267,18 @@ if(typeof VMM != 'undefined' && typeof VMM.Date == 'undefined') {
 						parseInt(d.slice(8,10), 10), 
 						parseInt(d.slice(10,12), 10)
 					);
+					p.year = true;
+					p.month = true;
+					p.day = true;
+					p.hour = true;
+					p.minute = true;
+					if (date.getSeconds() >= 1) {
+						p.second = true;
+					}
+					if (date.getMilliseconds() >= 1) {
+						p.millisecond = true;
+					}
+					
 				}
 				
 			}
@@ -296,7 +314,14 @@ if(typeof VMM != 'undefined' && typeof VMM.Date == 'undefined') {
 			if (type.of(d) == "date") {
 				
 				if (type.of(p) == "object") {
-					if (p.millisecond || p.second || p.minute) {
+					if (p.millisecond || p.second && d.getSeconds() >= 1) {
+						// YEAR MONTH DAY HOUR MINUTE
+						if (is_abbr){
+							format = VMM.Date.dateformats.time_short; 
+						} else {
+							format = VMM.Date.dateformats.time_short;
+						}
+					} else if (p.minute) {
 						// YEAR MONTH DAY HOUR MINUTE
 						if (is_abbr){
 							format = VMM.Date.dateformats.time_no_seconds_short; 
