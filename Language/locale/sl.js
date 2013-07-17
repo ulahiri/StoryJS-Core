@@ -18,6 +18,7 @@ if (typeof VMM != 'undefined') {
 			month: "mmmm yyyy",
 			full_short: "d mmm",
 			full: "d mmmm yyyy",
+			time_short: "h:MM:ss TT",
 			time_no_seconds_short: "h:MM",
 			time_no_seconds_small_date: "h:MM' 'd mmmm' 'yyyy",
 			full_long: "d mmm yyyy 'ob' hh:MM",

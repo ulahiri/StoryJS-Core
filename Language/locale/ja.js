@@ -18,6 +18,7 @@ if(typeof VMM != 'undefined') {
 			month: "yyyy年 m月d日 (ddd)",
 			full_short: "yyyy年m月d日",
 			full: "yyyy年 m月d日 (ddd)",
+			time_short: "HH:MM:ss",
 			time_no_seconds_short: "HH:MM",
 			time_no_seconds_small_date: "HH:MM'<br/><small>'yyyy年m月d日'</small>'",
 			full_long: "yyyy年m月d日 H時M分s秒",
