@@ -2,6 +2,12 @@
 ================================================== */
 if(typeof VMM != 'undefined') {
 	
+	VMM.modal = function(elem, opt) {
+		if( typeof( jQuery ) != 'undefined' ){
+			jQuery(elem).fancybox(opt);
+		}
+	};
+	
 	VMM.smoothScrollTo = function(elem, duration, ease) {
 		if( typeof( jQuery ) != 'undefined' ){
 			var _ease		= "easein",

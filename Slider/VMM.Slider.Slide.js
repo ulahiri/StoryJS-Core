@@ -228,6 +228,7 @@ if (typeof VMM.Slider != 'undefined') {
 			if (data.text != null && data.text != "") {
 				c.has.text		=  true;
 				c.text			+= VMM.createElement("p", VMM.Util.linkify_with_twitter(data.text, "_blank"));
+				
 			}
 			
 			if (c.has.text || c.has.headline) {
@@ -273,7 +274,16 @@ if (typeof VMM.Slider != 'undefined') {
 				VMM.Lib.addClass($slide, c.layout);
 			}
 			
-			
+			/* ADD MODALS
+			================================================== */
+			// MOVE TO EVENT LISTENER UP THE FOOD CHAIN
+			/*
+			VMM.modal('.vmm-modal', {
+				openEffect: 	'elastic',
+				closeEffect: 	'elastic',
+				padding: 		[2, 2, 2, 2]
+			});
+			*/
 		};
 		
 	}
