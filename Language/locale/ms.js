@@ -21,17 +21,17 @@ if(typeof VMM != 'undefined') {
 			time_short: "h:MM:ss TT",
 			time_no_seconds_short: "h:MM TT",
 			time_no_seconds_small_date: "h:MM TT'<br/><small>'d mmmm yyyy'</small>'",
-			full_long: "d mmm yyyy 'pada' h:MM TT",
+			full_long: "d mmm yyyy 'jam' h:MM TT",
 			full_long_small_date: "h:MM TT'<br/><small>d mmm yyyy'</small>'"
 		},
 		messages: {
-			loading_timeline: "Pemuatan Garis Masa... ",
+			loading_timeline: "Memuat Garis Masa... ",
 			return_to_title: "Kembali ke Tajuk",
 			expand_timeline: "Besarkan Garis Masa",
 			contract_timeline: "Kecilkan Garis Masa",
 			wikipedia: "Daripada Wikipedia, ensiklopedia bebas.",
-			loading_content: "Pemuatan Kandungan",
-			loading: "Pemuatan"
+			loading_content: "Memuat Kandungan",
+			loading: "Memuat"
 		}
 	}
 }
