@@ -1,6 +1,6 @@
 /*
 	LoadLib
-	Designed and built by Zach Wise digitalartwork.net
+	Designed and built by Zach Wise http://zachwise.com/
 	Extends LazyLoad
 */
 

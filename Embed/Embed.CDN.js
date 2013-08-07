@@ -1,6 +1,5 @@
-/*
-	VéritéCo Timeline CDN 2.2
-	Designed and built by Zach Wise digitalartwork.net
+/* Embed.CDN
+	Designed and built by Zach Wise http://zachwise.com/ 
 */  
 
 /* 	CodeKit Import

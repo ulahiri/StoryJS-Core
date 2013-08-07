@@ -1,7 +1,4 @@
-/**
-	VéritéCo StoryJS Embed Loader 2.2
-	Designed and built by Zach Wise digitalartwork.net
-*/  
+//StoryJS Embed Loader
 
 /* 	CodeKit Import
 	http://incident57.com/codekit/ 

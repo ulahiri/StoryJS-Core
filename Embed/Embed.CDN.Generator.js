@@ -1,7 +1,4 @@
-/*
-	VéritéCo Embed Generator 2.2
-	Designed and built by Zach Wise digitalartwork.net
-*/  
+/* Support Timeline Embed Generator web form (becomes storyjs-embed-generator.js) */  
 if(typeof generator_embed_path == 'undefined' || typeof generator_embed_path == 'undefined') {
 	// REPLACE WITH YOUR BASEPATH IF YOU WANT OTHERWISE IT WILL TRY AND FIGURE IT OUT
 	var generator_embed_path = getScriptPath("storyjs-embed-generator.js").split("js/")[0];
