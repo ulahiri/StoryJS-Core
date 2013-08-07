@@ -4,7 +4,6 @@
 /*	* CodeKit Import
 	* http://incident57.com/codekit/
 ================================================== */
-// @codekit-prepend "VMM.StoryJS.License.js";
 // @codekit-prepend "Core/VMM.Core.js";
 // @codekit-prepend "Language/VMM.Language.js";
 // @codekit-prepend "Media/VMM.Media.js";
