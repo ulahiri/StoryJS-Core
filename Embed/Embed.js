@@ -6,7 +6,6 @@
 /* 	CodeKit Import
 	http://incident57.com/codekit/ 
 ================================================== */
-// @codekit-prepend "../VMM.StoryJS.License.js";
 // @codekit-prepend "Embed.LoadLib.js";
 
 var WebFontConfig;
