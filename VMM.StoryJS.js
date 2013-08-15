@@ -9,7 +9,6 @@
 // @codekit-prepend "Media/VMM.Media.js";
 // @codekit-prepend "Slider/VMM.DragSlider.js";
 // @codekit-prepend "Slider/VMM.Slider.js";
-// @codekit-prepend "Library/jquery.fancybox.js";
 // @codekit-prepend "Library/AES.js";
 // @codekit-prepend "Library/bootstrap-tooltip.js";
 
