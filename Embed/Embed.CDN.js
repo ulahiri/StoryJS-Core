@@ -1,5 +1,5 @@
 /* Embed.CDN
-	Designed and built by Zach Wise http://zachwise.com/ 
+	Extend the basic 'embed' functionality with Google Analytics tracking and url parsing to support URLs created with the Timeline generator form.
 */  
 
 /* 	CodeKit Import
