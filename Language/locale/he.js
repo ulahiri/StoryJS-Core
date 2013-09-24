@@ -1,9 +1,8 @@
 ﻿/* Hebrew (beta) LANGUAGE 
 ================================================== */
-trace("Language code 'iw' for Hebrew is deprecated. Use 'he' instead.")
 if(typeof VMM != 'undefined') {
 	VMM.Language = {
-		lang: "iw",
+		lang: "he",
 		right_to_left: true,
 		api: {
 			wikipedia: "he"
