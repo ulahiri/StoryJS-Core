@@ -4,7 +4,7 @@ if(typeof VMM != 'undefined') {
 	VMM.Language = {
 		lang: "en",
 		api: {
-			wikipedia: "en"
+			wikipedia: "bn"
 		},
 		date: {
 			month: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
